@@ -1,5 +1,7 @@
 var express = require('express');
 var router = express.Router();
+var bodyParser = require('body-parser')
+var jsonParser = bodyParser.json()
 const fs = require("fs")
 const path = require("path")
 
